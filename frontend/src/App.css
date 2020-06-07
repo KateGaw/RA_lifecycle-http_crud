@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.update_button {
+    margin-left: 15px;
+    border: none;
+    background-color: white;
+    font-size: 28px;
+    padding-top: 10px;
+    color: darkgreen;
+}
+
+.delete_button {
+    position: absolute;
+    top: -11px;
+    right: -10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 22px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    color: red;
+}
+
+.add_button {
+    position: absolute;
+    bottom: 18px;
+    left: 53%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+}
+
+.notes {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid black;
+    width: 260px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.add_form {
+    margin: 30px;
+}
+
+.input_form {
+    position: relative;
+}
+
+.textarea {
+    width: 60%;
+    height: 150px;
+    resize: none;
+}
+
+button,
+button:hover {
+    outline: none;
+}
